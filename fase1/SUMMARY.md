@@ -1,0 +1,16 @@
+# Table of contents
+
+* [Variaveis](README.md)
+* [Operadores](operadores.md)
+* [If/else](if-else.md)
+* [Switch](switch.md)
+* [For / foreach](for-foreach.md)
+* [While / do-while](while-do-while.md)
+* [Classes](classes.md)
+* [Métodos](metodos.md)
+* [Array](array.md)
+* [List](list.md)
+* [For](for.md)
+* [Foreach](foreach.md)
+* [Classes](classes-1.md)
+* [Untitled](untitled.md)
