@@ -1,7 +1,13 @@
 # Table of contents
 
-* [Variaveis](README.md)
+* [Comandos básicos](README.md)
+* [Escopo de um programa](escopo-de-um-programa.md)
+* [Namespace](namespace.md)
+* [Variaveis](<README (1).md>)
+* [Conversão](conversao.md)
+* [Constantes](constantes.md)
 * [Operadores](operadores.md)
+* [Page](page.md)
 * [If/else](if-else.md)
 * [Switch](switch.md)
 * [For / foreach](for-foreach.md)

@@ -1,76 +1,32 @@
----
-description: >-
-  É um espaço na memória do pc para armazenar dados. Pra C#, podemos declarar
-  variaveis vaziase elas podem ser alteradas em tempo de execução. Sintaxe:
----
+# Comandos básicos
 
-# Variaveis
-
-```csharp
-tipo nomeVariavel; ou tipo nomeVariavel = valor;
-```
+Esses comando são para a criação de projetos direto no terminal do windows.
 
 
 
-### Tipos
+1. Ir a pasta onde quer criar o projeto usando o cd \ e o cd ..
 
-Os **tipos de valor** armazenam os dados diretamente na memória. Eles são usados para tipos simples como números e booleanos.
+<div align="left"><figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
 
-<table><thead><tr><th width="137">Tipo</th><th width="263">Descrição</th><th>Exemplo </th></tr></thead><tbody><tr><td>Int </td><td>Valores inteiros</td><td>int i = 42;</td></tr><tr><td>float</td><td>números decimais (precisão de 7 dígitos)</td><td>float f = 3.14f;</td></tr><tr><td>double</td><td>números decimais (precisão de 15-16 dígitos)</td><td>double d = 3.14159;</td></tr><tr><td>decimal</td><td>números decimais (precisão de 28-29 dígitos)</td><td>decimal m = 3.14m;</td></tr><tr><td>bool</td><td>valores V ou F</td><td>bool isValid = true;</td></tr><tr><td>char</td><td>Qualquer caractere Unicode</td><td>char c = 'A';</td></tr></tbody></table>
+2. Criar a pasta para o projeto usando o mkdir
 
+<div align="left"><figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
 
-
-### Tipo de Referência
-
-Os **tipos de referência** armazenam um **endereço de memória**, e não o dado diretamente. São usados para objetos complexos e strings.
+3. Entrar na pasta com o cd
 
 
 
-<table><thead><tr><th width="115">Tipo</th><th width="256">Descrição</th><th>Exemplo</th></tr></thead><tbody><tr><td>string</td><td>Sequencia de caracteres</td><td>string nome = "Maria";</td></tr><tr><td>object</td><td>Tipo base para todos os tipos</td><td>object obj = 42;</td></tr><tr><td>dynamic</td><td>Tipo que aceita valores dinâmicos</td><td>dynamic dyn = "texto";</td></tr><tr><td>Classes e Arrays</td><td>Objetos e coleções de valores</td><td>int[] numeros = {1, 2, 3};</td></tr></tbody></table>
+4. Criar o projeto
 
-**Importante:**
+<div align="left"><figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
 
-* **Strings** são imutáveis: uma vez criadas, não podem ser alteradas diretamente.
-* **Dynamic** é útil, mas cuidado! Não tem verificação em tempo de compilação.
+tipos de projeto:
 
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
+5.  Após a criação voce deve fazer o dotnet restore para instalar todas as dependencias necessárias
 
-
-
-### Conversão entre tipos
-
-C# permite conversões de tipos, chamadas **casting**.
-
-**Conversão implícita**
-
-* Ocorre automaticamente quando **não há perda de dados**
-
-```csharp
-int inteiro = 42;
-double real = inteiro; // OK: int para double
-
-```
-
-
-
-**Conversão explícita**
-
-* Exige uma conversão manual quando **há risco de perda de dados**.
-
-```csharp
-double real = 42.5;
-int inteiro = (int)real; // Perde a parte decimal (42)
-
-```
-
-
-
-**Classe `Convert`**
-
-* Para conversões seguras:
-
-```csharp
-string texto = "100";
-int numero = Convert.ToInt32(texto);
-
-```
+    <div align="left"><figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
+6. dotnet build:   comando necessário para conferir se a aplicação está rodando sem erros
+7. dotnet clean: para limpar o cache
+8. dotnet run: para rodar a aplicação
