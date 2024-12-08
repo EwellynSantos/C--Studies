@@ -25,10 +25,7 @@ class Pessoa
 
 Os membros de uma classe podem ter diferentes níveis de acesso para controlar a visibilidade:
 
-* **public**: Acessível por qualquer código.
-* **private**: Acessível apenas dentro da classe.
-* **protected**: Acessível dentro da classe e em classes derivadas.
-* **internal**: Acessível apenas dentro do mesmo assembly.
+<table><thead><tr><th width="230">Modificador</th><th>Descrição</th></tr></thead><tbody><tr><td><code>public</code></td><td>O membro pode ser acessado de qualquer lugar.</td></tr><tr><td><code>private</code></td><td>O membro só pode ser acessado dentro da própria classe.</td></tr><tr><td><code>protected</code></td><td>O membro pode ser acessado na própria classe e em classes derivadas.</td></tr><tr><td><code>internal</code></td><td>O membro pode ser acessado apenas dentro do mesmo assembly.</td></tr><tr><td><code>protected internal</code></td><td>Combinação de <code>protected</code> e <code>internal</code>.</td></tr><tr><td><code>private protected</code></td><td>Acesso limitado à própria classe e suas subclasses no mesmo assembly.</td></tr></tbody></table>
 
 
 

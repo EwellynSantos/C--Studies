@@ -15,6 +15,7 @@
 * [For / foreach](for-foreach.md)
 * [While / do-while](while-do-while.md)
 * [Classes](classes.md)
+* [Interfaces](interfaces.md)
 * [Métodos](metodos.md)
 * [Array](array.md)
 * [List](list.md)
