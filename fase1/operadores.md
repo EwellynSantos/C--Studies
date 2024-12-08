@@ -31,7 +31,7 @@ Comparam valores e retornam um **bool** (`true` ou `false`).
 
 
 
-| Operador | Operador         |
+| Operador | Operação         |
 | -------- | ---------------- |
 | ==       | Igual a          |
 | !=       | Diferente de     |
@@ -40,3 +40,18 @@ Comparam valores e retornam um **bool** (`true` ou `false`).
 | =>       | Maior ou igual a |
 | <=       | Menor ou igual a |
 
+
+
+
+
+### Operadores lógicos
+
+usado para operações condicionais
+
+
+
+| Operador | Operação             |
+| -------- | -------------------- |
+| &&       | e                    |
+| \|\|     | ou                   |
+| !        | diferente/ não igual |
