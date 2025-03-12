@@ -123,3 +123,11 @@ class Gato : Animal
     }
 }
 ```
+
+
+
+
+
+### Sugestão de orgem de implementação em uma classe:
+
+<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
