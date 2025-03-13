@@ -27,4 +27,6 @@
 * [IHttpActionResult Métodos (trabalho)](untitled.md)
 * [Properties e auto properties](properties-e-auto-properties.md)
 * [Saída(Console)](saida-console.md)
+* [Tipos referencia](tipos-referencia.md)
+* [Tipos valor (structs)](tipos-valor-structs.md)
 * [Resolução de problemas](resolucao-de-problemas.md)
