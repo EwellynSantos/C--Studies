@@ -30,3 +30,5 @@
 * [Tipos referencia](tipos-referencia.md)
 * [Tipos valor (structs)](tipos-valor-structs.md)
 * [Resolução de problemas](resolucao-de-problemas.md)
+* [Desalicação de memória: Garbage Collector e Escopo Local](desalicacao-de-memoria-garbage-collector-e-escopo-local.md)
+* [Nullable](nullable.md)
