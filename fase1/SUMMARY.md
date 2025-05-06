@@ -40,3 +40,4 @@
 * [Condicional Ternária](condicional-ternaria.md)
 * [String e principais funçoes](string-e-principais-funcoes.md)
 * [DateTime](datetime.md)
+* [Timespan](timespan.md)
