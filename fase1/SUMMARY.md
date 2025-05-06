@@ -38,3 +38,5 @@
 * [Boxing e Unboxing](boxing-e-unboxing.md)
 * [Matrizes](matrizes.md)
 * [Condicional Ternária](condicional-ternaria.md)
+* [String e principais funçoes](string-e-principais-funcoes.md)
+* [DateTime](datetime.md)
