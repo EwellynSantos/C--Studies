@@ -41,3 +41,7 @@
 * [String e principais funçoes](string-e-principais-funcoes.md)
 * [DateTime](datetime.md)
 * [Timespan](timespan.md)
+* [SOLID](solid.md)
+* [DDD](ddd.md)
+* [Microsservicos](microsservicos.md)
+* [Mensageria](mensageria.md)
