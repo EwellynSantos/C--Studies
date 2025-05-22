@@ -29,28 +29,5 @@ D – Dependency Inversion Principle (Princípio da Inversão de Dependência)\
 \
 Dependa de abstrações (interfaces), e não de implementações concretas.\
 \
-Isso facilita o desacoplamento entre os módulos do sistema.\
-\
-Esses princípios são muito usados no desenvolvimento de software orientado a objetos, especialmente em linguagens como Java, C#, TypeScript, entre outras.\
-\
-Quer que eu aplique os princípios SOLID em um exemplo de código?\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-ChatGPT can make mistakes. Check important info.
+Isso facilita o desacoplamento entre os módulos do sistema&#x20;
+
