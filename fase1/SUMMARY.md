@@ -51,3 +51,4 @@
 * [Typescript](typescript.md)
 * [React Hooks](react-hooks.md)
 * [JWT](jwt.md)
+* [Design Partner](design-partner.md)
